@@ -1,0 +1,98 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Doors", "Midnight")
+
+--MAIN
+
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+
+MainSection:NewButton("GodNerd/noclipbypass", "Only do it when you're in game!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/doorsnerdv4.lua"))()
+end)
+
+MainSection:NewButton("God Mode Hardcore mode", "Only do it when you're in game.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/GodModeByNerd.lua"))()
+end)
+
+MainSection:NewButton("Lolcat doors/Speed bypass", "Only do it when you're in game.", function()
+    loadstring(game:HttpGet("https://lolcat.boo/awesomescript"))()
+end)
+
+MainSection:NewButton("Size Changer Gun!", "Only Do it when you're in game..", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/SizeChangerByNerd.lua"))()
+end)
+
+MainSection:NewButton("Everything Gun", "Only Do it when you're in game.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/EverythingGunByNeRD.lua"))()
+end)
+
+MainSection:NewButton("Ice Gun", "Only Do it when you're in game.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/IcegunByNerd.lua"))()
+end)
+
+MainSection:NewButton("FE banana Gun Hardcore mode", "Only Do it when you're in game.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/BananaGunByNerd.lua"))()
+end)
+
+MainSection:NewButton("Elevator Breaker Only in priv servers", "Only Do it when you're in game.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Mhas2g/fezgrehfdfds/main/ngfdssfzxvsedfgds"))()
+end)
+
+
+
+
+local Admins = Window:NewTab("Other")
+local Admins = Admins:NewSection("Other")
+
+Admins:NewButton("Infinite Yeildy", "Infinite Yeild.", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Admins:NewButton("Bypassed Fly", "weeee.", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/WxmvCLLH'),true))()
+end)
+
+Admins:NewButton("Telekines", "i belive i can fly.", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/KduE9A6z"))()
+end)
+
+Admins:NewButton("Anti Afk", "no afk kick yay.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
+end)
+
+Admins:NewButton("Sword fight bot", "me too lazy to fight.", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/yeerma/1/main/bot'))()
+end)
+
+Admins:NewButton("YEET", "YEET.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mhas2g/YEET2/main/YEET%20GUI"))()
+end)
+
+Admins:NewButton("Aimbot", "i aint aiming that.", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Mhas2g/ygrgfxgxcbgfhgfjgfygedffvsdfxcvdsdrse/main/ewanmhrfgaskjbgdnmabg%2Cmdzbafkjna%2Cmfbamndghfhkjabbndgakjfbjh'))()
+end)
+
+Admins:NewButton("Lift Players", "i belive i can fly.", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/rouxhaver/scripts-3/main/player%20lifter.lua'))()
+end)
+
+Admins:NewButton("Hat eater", "that hat taste yummy.", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Mhas2g/tragfhgfhbvcgrsdfesdfxresccvxhytr/main/rewafgdgfdjhfeskjhgfn%2Cmjsdbgfkjhsdhfmjhsdgfjhdshgfjkhsd'))()
+end)
+
+Admins:NewButton("Unachoner part teleport", "here some parts.", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Mhas2g/teagfabdnmvbadkjghaedjkghjkahgkjadhgjdahgkjadhkjghadkjghadkjghkadjhgkjadhkgj/main/tregbdsjhfgdskjbfdsmbfjhsdhfkjdsgfkdshfksdhgjhdsgfhdsgfjhdsgfhjsdgfjhdsgfhjdsgfjhdsgfjhsdgfjhsdgfhj'))()
+end)
+
+Admins:NewButton("Walk on walls", "gravity has been broken.", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Mhas2g/dwagfdcvbsdfdsfewafewkshgkjdsjgklsdhkgjsdhkjfhsd-jhfkjusdenfkjsehjoi/main/rjewhrkjahkrjashjrhkjahjfrkabsjkfhhaghehkrgkearghejbtjhstgtkjfdjhgsdfkjughskjd'))()
+end)
+
+Admins:NewButton("Esp", "i see you threw.", function()
+loadstring(game:HttpGet('https://github.com/ic3w0lf22/Unnamed-ESP/blob/master/UnnamedESP.lua'))()
+end)
+
+Admins:NewButton("Nameless admin CLICK 3 DOTS", "gravity gun,flingwalk,.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
+end)
